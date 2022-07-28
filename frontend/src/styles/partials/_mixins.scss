@@ -1,0 +1,37 @@
+// Mixins
+
+// Tablet
+@mixin for-tab {
+	@media screen and (min-width: 0px) and(max-width: 768px) {
+		@content;
+	}
+}
+
+// Desktop
+@mixin for-desktop {
+	@media screen and (min-width: 769px) and (max-width: 4000px) {
+		@content;
+	}
+}
+
+@mixin grid-one {
+	gap: 1rem;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+@mixin grid-two {
+	gap: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+@mixin grid-three {
+	gap: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+@mixin grid-four {
+	gap: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}

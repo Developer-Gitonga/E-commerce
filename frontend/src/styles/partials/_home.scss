@@ -1,0 +1,71 @@
+* {
+	letter-spacing: 0.03rem;
+}
+
+#offers {
+	background: url('https://res.cloudinary.com/fichua-store/image/upload/v1657335244/offer_onntva.jpg')
+		top/cover no-repeat;
+
+	.tint {
+		background: rgba(2, 27, 80, 0.55);
+	}
+}
+
+.untint {
+	opacity: 1;
+}
+
+#offers .row {
+	min-height: 60vh;
+}
+
+#carousel {
+	.item {
+		overflow: hidden;
+	}
+}
+
+.active-filter-btn {
+	background-color: $fichua_primary !important;
+	color: $fichua_light !important;
+}
+
+.ctcrd {
+	font-weight: 600;
+	border-radius: 0.5rem;
+	border: 1px solid $fichua_secondary;
+	background-color: $fichua_light;
+}
+
+.txtn {
+	text-decoration: none !important;
+}
+
+.flt {
+	position: relative;
+
+	span {
+		position: fixed;
+		top: 0.6rem;
+	}
+}
+
+.rw {
+	gap: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.gw {
+	gap: 2;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	flex-wrap: wrap;
+}
+
+.crd {
+	border: 1px solid $fichua_secondary;
+}

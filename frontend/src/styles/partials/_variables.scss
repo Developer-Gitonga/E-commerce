@@ -1,0 +1,46 @@
+/* make the customizations */
+$fichua_primary: rgba(2, 123, 206, 1);
+$fichua_secondary: rgba(90, 219, 255, 1);
+$fichua_success: rgba(77, 204, 189, 1);
+$fichua_info: rgba(155, 197, 61, 1);
+$fichua_warning: rgba(253, 231, 76, 1);
+$fichua_danger: rgba(255, 132, 132, 1);
+$fichua_light: rgba(235, 251, 255, 1);
+$fichua_dark: rgba(0, 72, 124, 1);
+$fichua_black: rgba(0, 48, 82, 1);
+
+$theme-colors: (
+	'primary': $fichua_primary,
+	'secondary': $fichua_secondary,
+	'success': $fichua_success,
+	'info': $fichua_info,
+	'warning': $fichua_warning,
+	'danger': $fichua_danger,
+	'light': $fichua_light,
+	'dark': $fichua_dark,
+);
+
+$poppins: 'Poppins', sans-serif;
+$finladica: 'Finlandica', sans-serif;
+
+$blue: $fichua_primary;
+$body-color: $fichua_black;
+$font-family-base: $poppins;
+$gray-300: $fichua_secondary;
+$font-family-serif: $finladica;
+$font-family-sans-serif: $poppins;
+
+$carousel-control-opacity: 0.7;
+$carousel-control-hover-opacity: 1;
+
+$carousel-indicator-width: 10px;
+$carousel-indicator-height: 10px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer: 5px;
+$carousel-indicator-opacity: 0.5;
+$carousel-indicator-active-bg: $fichua_secondary;
+$carousel-indicator-active-opacity: 1;
+$carousel-indicator-transition: opacity 0.6s ease;
+
+/* import bootstrap to set changes */
+@import '../../../node_modules/bootstrap/scss/bootstrap';
